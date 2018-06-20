@@ -1,28 +1,76 @@
-.App {
-  text-align: center;
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font-family:"Microsoft YaHei";vertical-align:baseline;font-weight: 100;}
+/*HTML5display-roleresetforolderbrowsers*/
+article,aside,details,figcaption,figure,
+footer,header,menu,nav,section{display:block;}
+body{line-height:1;background-color: #f2f2f2;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';}
+table{border-collapse:collapse;border-spacing:0;}
+/*������ʽ*/
+body,ul,ol,li,p,dl,dd,dt,h3,form{margin:0; padding:0; font-family: "Microsoft YaHei"; font-size:0.15rem;list-style:none; color:#333;font-weight: 100;}
+/*body{background:#f3f3f3;}*/
+a{text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);color: #333;}
+input,button,textarea,select{outline:none;font-family: "microsoft yahei";}
+textarea{box-sizing: border-box;resize : none;}
+input{padding-left: 4px;border: none;font-size: 0.14rem;}
+select {background-color:#fbfbfb;border:none;color:#666;font-family: "microsoft yahei";}
+*{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+*:not(input,textarea,button,select) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+img{
+    vertical-align: middle;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+input{padding-right: 0;}
+.addMargin-10{margin-top: 0.1rem;}
+.addMargin-20{margin-top: 0.2rem;}
+hr{padding: 0;margin: 0;}
+input[type="submit"],input[type="reset"],input[type="button"],button{-webkit-appearance: none;}
+input[type="datetime-local"],[type="text"]{border: none;background-color:white;}
+button {border:none;background-color: #f29132;color: white;border-radius: 5px;cursor: pointer;padding: 0.02rem 0.06rem;}
+.clear:after{
+    display:block;
+    content:'';
+    clear:both;
 }
+.lf{  float:left;  }
+.rt{ float:right; }
 
-.App-title {
-  font-size: 1.5em;
+#app{
+  margin-top: 0;
 }
-
-.App-intro {
-  font-size: large;
+html { font-size:533.3%}
+@media only screen and (min-width: 360px){
+    html { font-size:600%}
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media only screen and (min-width: 375px){
+    html { font-size:625%}
+}
+@media only screen and (min-width: 414px){
+    html { font-size:690%}
+}
+body{
+    background:#fff;
+}
+header  {
+    background:#fff;
+}
+header .back,header h1{
+    color:#000;
 }
